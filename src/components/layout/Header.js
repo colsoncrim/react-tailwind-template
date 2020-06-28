@@ -7,7 +7,6 @@ const Header = () => (
       <div className="container flex flex-col sm:flex-row justify-between items-center mx-auto py-4 px-8">
         <div className="flex items-center text-2xl">
           <div className="w-12 mr-3">
-          {/* logo here */}
           </div>
           Company
         </div>

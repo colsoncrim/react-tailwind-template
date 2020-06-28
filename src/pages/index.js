@@ -103,13 +103,13 @@ const IndexPage = () => (
         <h3 className="text-white">Insert impressive stats here</h3>
         <div className="flex flex-col sm:flex-row mt-8 lg:px-24 text-white">
           <div className="w-full sm:w-1/3">
-            <Metrics primaryText="+90%" secondaryText="Impressive stats" />
+            <Metrics primaryText="+80%" secondaryText="Impressive stat" />
           </div>
           <div className="w-full sm:w-1/3">
-            <Metrics primaryText="5x" secondaryText="Impressive stats" />
+            <Metrics primaryText="5x" secondaryText="Impressive stat" />
           </div>
           <div className="w-full sm:w-1/3">
-            <Metrics primaryText="+60%" secondaryText="Impressive stats" />
+            <Metrics primaryText="+60%" secondaryText="Impressive stat" />
           </div>
         </div>
       </div>
@@ -182,6 +182,15 @@ const IndexPage = () => (
           </p>
         </div>
       </div>
+    </section>
+
+    <section className="container w-full bg-gray-300 mx-auto text-center rounded-lg mt-10 pt-6 pb-12">
+      <h2 className="w-full my-2 text-5xl font-black leading-tight text-center text-black">Call to Action</h2>
+      <div className="w-full mb-4">
+        <div className="h-1 mx-auto bg-white w-1/6 opacity-25 my-0 py-0 rounded-t"></div>
+      </div>
+      <h3 className="my-4 text-3xl text-gray-700 font-extrabold">Get started message here</h3>
+      <Button>Action</Button>
     </section>
   </Layout>
 )
